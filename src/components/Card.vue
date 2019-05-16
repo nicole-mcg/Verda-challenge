@@ -44,4 +44,13 @@ export default class StoryPreview extends Vue {
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .card {
+        border-radius: 0;
+        margin-right: 0;
+        margin-left: 0;
+        min-width: 100%;
+    }
+}
+
 </style>
