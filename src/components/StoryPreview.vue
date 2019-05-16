@@ -68,12 +68,13 @@ export default class StoryPreview extends Vue {
     align-items: center;
     padding: 0;
     text-align: left;
-
+    overflow: hidden;
 
     &-title {
+        max-width: 75%;
         padding: 16px 32px;
-        font-size: 1.5em;
-        flex-grow: 5;
+        font-size: 1.25em;
+        flex-grow: 2;
         
         color: inherit;
         text-decoration: none;
@@ -90,7 +91,9 @@ export default class StoryPreview extends Vue {
         align-items: center;
         justify-content: center;
 
-        padding: 16px;
+        min-width: 25%;
+        height: 100%;
+
         font-size: 1.25em;
 
         background-color: rgba(0, 0, 0, 0.05);
