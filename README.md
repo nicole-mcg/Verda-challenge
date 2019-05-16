@@ -1,6 +1,8 @@
 # Verda-challenge [![Build Status](https://travis-ci.org/nik-m2/Verda-challenge.svg?branch=master)](https://travis-ci.org/nik-m2/Verda-challenge)
 
-## Project setup
+A small app written in Vue.js for Verda
+
+## Setup
 ```
 npm install
 ```
