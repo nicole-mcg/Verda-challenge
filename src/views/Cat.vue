@@ -82,7 +82,7 @@ export default class StoryPage extends Vue {
     }
 
     &-image {
-        border-radius: 16px;
+        border-radius: 8px;
         max-width: 75vw;
         max-height: 75vh;
     }
