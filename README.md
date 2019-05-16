@@ -1,20 +1,22 @@
 # Verda-challenge [![Build Status](https://travis-ci.org/nik-m2/Verda-challenge.svg?branch=master)](https://travis-ci.org/nik-m2/Verda-challenge)
 
-## Project setup
+A small app written in Vue.js for Verda
+
+## Setup
 ```
 npm install
 ```
 
 ## Usage
 
-#### Development
+#### Development Server + Hot Reload
 ```
 npm run serve
 ```
 
-Then go to localhost:8080
+Then go to http://localhost:8080/
 
-#### Production
+#### Production Build
 ```
 npm run build
 ```
@@ -27,7 +29,7 @@ Output can be found in `build` folder
 npm test
 ```
 
-#### Integration tests
+#### Integration tests (requires Google Chrome)
 ```
 npm run test:e2e
 ```
