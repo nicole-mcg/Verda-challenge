@@ -29,7 +29,7 @@ Output can be found in `build` folder
 npm test
 ```
 
-#### Integration tests
+#### Integration tests (requires Google Chrome)
 ```
 npm run test:e2e
 ```
