@@ -124,7 +124,7 @@ export default class StoryPage extends Vue {
         }
 
         &-values {
-            border-radius: 0 0 16px 0;
+            border-radius: 0 0 8px 0;
             flex-grow: 5;
             
         }
@@ -147,7 +147,7 @@ export default class StoryPage extends Vue {
             }
 
             &:last-child {
-                border-radius: 0 0 0 16px;
+                border-radius: 0 0 0 8px;
             }
         }
     }
