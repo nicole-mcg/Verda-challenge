@@ -23,4 +23,11 @@ export default class StoryPreview extends Vue {
     left: 16px;
 }
 
+@media only screen and (max-width: 600px) {
+    .back-button {
+        top: 0;
+        left: 0;
+    }
+}
+
 </style>
