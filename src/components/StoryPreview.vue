@@ -63,7 +63,7 @@ export default class StoryPreview extends Vue {
 
 .story-preview {
     display: flex;
-    width: 100%;
+    width: 80vw;
     flex-direction: row;
     align-items: center;
     padding: 0;
@@ -101,6 +101,18 @@ export default class StoryPreview extends Vue {
 
         &-date {
             font-size: 0.75em;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .story-preview {
+        width: auto;
+        padding-left: 8px;
+
+        &-title {
+            padding-left: 0;
         }
     }
 }
