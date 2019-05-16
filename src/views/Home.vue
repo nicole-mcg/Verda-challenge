@@ -1,7 +1,5 @@
 <template>
     <div class="home">
-
-
         <div class="loader" v-if="loading"/>
         <div v-else-if="loadError" class="error">
             <div>
@@ -11,7 +9,7 @@
                 Retry
             </div>
         </div>
-        <div v-else>
+        <template v-else>
             <div class="home-title">
                 Top 25 Stories from <a href="https://news.ycombinator.com/">Hacker News</a>
             </div>
@@ -28,7 +26,7 @@
                     {{ jsonString }}
                 </pre>
             </card>
-        </div>
+        </template>
     </div>
 </template>
 
