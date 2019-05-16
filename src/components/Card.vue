@@ -26,14 +26,14 @@ export default class StoryPreview extends Vue {
 
 .card {
     margin: 16px auto;
-    border-radius: 16px;
-    box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.25);
     cursor: default;
     max-width: 80vw;
 
     &-title {
         padding: 16px;
-        border-radius: 16px 16px 0 0;
+        border-radius: 8px 8px 0 0;
         font-size: 2em;
         background-color: #BBBBBB;
         text-align: center;
