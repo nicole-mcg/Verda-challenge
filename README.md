@@ -1,39 +1,33 @@
-# verda-challenge
+# Verda-challenge [![Build Status](https://travis-ci.org/nik-m2/Verda-challenge.svg?branch=master)](https://travis-ci.org/nik-m2/Verda-challenge)
 
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## Usage
+
+#### Development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+Then go to localhost:8080
+
+#### Production
 ```
 npm run build
 ```
+Output can be found in `build` folder
 
-### Run your tests
-```
-npm run test
-```
+## Testing
 
-### Lints and fixes files
+#### Unit tests
 ```
-npm run lint
+npm test
 ```
 
-### Run your end-to-end tests
+#### Integration tests
 ```
 npm run test:e2e
 ```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
