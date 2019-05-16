@@ -9,14 +9,14 @@ npm install
 
 ## Usage
 
-#### Development
+#### Development Server + Hot Reload
 ```
 npm run serve
 ```
 
 Then go to http://localhost:8080/
 
-#### Production
+#### Production Build
 ```
 npm run build
 ```
