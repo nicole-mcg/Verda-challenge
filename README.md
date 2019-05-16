@@ -14,7 +14,7 @@ npm install
 npm run serve
 ```
 
-Then go to localhost:8080
+Then go to http://localhost:8080/
 
 #### Production
 ```
