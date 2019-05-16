@@ -7,14 +7,14 @@ npm install
 
 ## Usage
 
-### Development
+#### Development
 ```
 npm run serve
 ```
 
 Then go to localhost:8080
 
-### Production
+#### Production
 ```
 npm run build
 ```
@@ -22,12 +22,12 @@ Output can be found in `build` folder
 
 ## Testing
 
-Run unit tests:
+#### Unit tests
 ```
 npm test
 ```
 
-Run integration (e2e) tests:
+#### Integration tests
 ```
 npm run test:e2e
 ```
