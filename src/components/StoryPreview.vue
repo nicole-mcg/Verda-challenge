@@ -90,7 +90,6 @@ export default class StoryPreview extends Vue {
         align-items: center;
         justify-content: center;
 
-        min-width: 250px;
         padding: 16px;
         font-size: 1.25em;
 

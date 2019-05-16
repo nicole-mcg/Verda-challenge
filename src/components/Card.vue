@@ -25,7 +25,7 @@ export default class StoryPreview extends Vue {
 <style lang="less" scoped>
 
 .card {
-    margin: 16px;
+    margin: 16px auto;
     border-radius: 16px;
     box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.5);
     cursor: default;

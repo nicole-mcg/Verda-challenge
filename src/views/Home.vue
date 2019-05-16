@@ -18,9 +18,10 @@
             <div class="home-title-note">
                 Or <router-link to="/cats">check out some cats</router-link> instead!
             </div>
-            <div v-for="story in stories" :key="story.id">
-                <story-preview :story="story"/>
-            </div>
+            <story-preview
+                v-for="story in stories"
+                :key="story.id"
+                :story="story"/>
                 
             <card title="Raw JSON">
                 <pre class="home-json">

@@ -116,7 +116,7 @@ export default class StoryPage extends Vue {
 
             &:first-child {
                 font-weight: bold;
-                font-size: 1.5em;
+                font-size: 1.25em;
                 justify-content: center;
                 background-color: #EEEEEE; 
                         
@@ -126,6 +126,13 @@ export default class StoryPage extends Vue {
         &-values {
             border-radius: 0 0 16px 0;
             flex-grow: 5;
+            
+        }
+
+        &-value {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
         }
 
         &-field {
