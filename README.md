@@ -1,4 +1,4 @@
-# Verda-challenge
+# Verda-challenge [![Build Status](https://travis-ci.org/nik-m2/Verda-challenge.svg?branch=master)](https://travis-ci.org/nik-m2/Verda-challenge)
 
 ## Project setup
 ```
