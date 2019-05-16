@@ -24,7 +24,9 @@
                     Values
                 </div>
                 <div v-for="field in fieldNames" :key="field" class="story-page-card-value">
-                    {{ storyInfo[field] }}
+                    <div class="story-page-card-field-scroll">
+                        {{ storyInfo[field] }}
+                    </div>
                 </div>
             </div>
         </card>
@@ -99,7 +101,7 @@ export default class StoryPage extends Vue {
     &-card {
 
         &-fields, &-values {
-            width: 33%;
+            min-width: 25%;
         }
 
 
@@ -112,7 +114,6 @@ export default class StoryPage extends Vue {
             
             height: 46px;
             font-size: 20px;
-            overflow: auto;
 
             &:first-child {
                 font-weight: bold;
@@ -132,7 +133,7 @@ export default class StoryPage extends Vue {
         &-value {
             display: flex;
             flex-direction: column;
-            justify-content: flex-start;
+            justify-content: center;
         }
 
         &-field {
@@ -148,6 +149,10 @@ export default class StoryPage extends Vue {
 
             &:last-child {
                 border-radius: 0 0 0 8px;
+            }
+
+            &-scroll {
+                overflow: auto;
             }
         }
     }
